@@ -1,8 +1,102 @@
 body {
   padding: 50px;
+  border: 2px solid #cacacaca;
+  border-radius: 16px;
+  border-style: outset;
+  box-shadow: 0px 0px 2px black;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url(background.jpeg);
+  background-color: white;
+  font-family: monospace;
+  
+}
+
+img{
+  background-position: center;
+  size: cover;
+  background-size: cover;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-image: fill;
+}
+
+h1{
+  
+  color: navy;
+  text-align: center;
+  background-color: white;
+  border: 5px solid whitesmoke;
+}
+
+h2{
+  
+  color: navy;
+  text-align: center;
+  background-color: white;
+  border: 5px solid whitesmoke;
+}
+
+label{
+ 
+  color: black;
+}
+
+nav ul {
+  color: gray;
+  background-color: white;
+  display: grid;
+  grid-auto-flow: column;
+  border: 5px solid whitesmoke;
+  list-style: none;
+}
+
+ul li a {
+  color: blue;
+  text-shadow: #00B7FF;
 }
 
 a {
   color: #00B7FF;
+
+}
+
+main{
+  text-align: center;
+}
+
+footer{
+  color: navy;
+  text-align: center;
+  background-color: white;
+  border: 5px solid whitesmoke;
+}
+
+grid-container{
+  display: grid;
+  width: 400px;
+  height: 400px;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  grid-template-areas:
+  "header header header"
+  "sidebar content content"
+  "sidebar content content"
+  "footer footer footer";
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  border-radius: .35em;
+}
+
+form{
+  text-align: center;
+}
+
+input {
+  padding: 4px 8px;
+  border: 1px solid #cacacaca;
+  border-radius: 16px;
+  box-shadow: 0px 0px 4px black;
 }
